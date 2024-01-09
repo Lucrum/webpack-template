@@ -37,3 +37,12 @@ env: {
   "jest/globals": true,
 }
 ```
+
+- Add to `package.json`
+```
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
