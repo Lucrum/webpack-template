@@ -8,7 +8,7 @@ A simple template with Webpack, ESLint, & Prettier
 
 `npm init @eslint/config`
 
-2. Configure `eslint-config-prettier` by extending `.eslintrc.xx` config
+2. Configure `eslint-config-prettier` by extending `.eslintrc` config
 
 `extends: ["prettier"],`
 
@@ -28,5 +28,12 @@ https://github.com/prettier/eslint-config-prettier#installation
   "scripts": {
     "test": "jest"
   }
+}
+```
+
+- Add to `eslintrc` config
+```
+env: {
+  "jest/globals": true,
 }
 ```
